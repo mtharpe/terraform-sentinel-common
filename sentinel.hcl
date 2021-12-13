@@ -109,10 +109,10 @@ policy "restrict-panos-srgs" {
     enforcement_level = "advisory"
 }
 
-policy "restrict-remote-state" {
-    source = "./restrict-remote-state.sentinel"
-    enforcement_level = "advisory"
-}
+# policy "restrict-remote-state" {
+#     source = "./restrict-remote-state.sentinel"
+#     enforcement_level = "advisory"
+# }
 
 policy "restrict-resources-by-module-source" {
     source = "./restrict-resources-by-module-source.sentinel"
