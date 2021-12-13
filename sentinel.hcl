@@ -64,25 +64,25 @@ policy "prevent-remote-exec-provisioners-on-null-resources" {
     enforcement_level = "advisory"
 }
 
-policy "prohibited-datasources" {
-    source = "./prohibited-datasources.sentinel"
-    enforcement_level = "hard-mandatory"
-}
+#policy "prohibited-datasources" {
+#    source = "./prohibited-datasources.sentinel"
+#    enforcement_level = "hard-mandatory"
+#}
 
-policy "prohibited-providers" {
-    source = "./prohibited-providers.sentinel"
-    enforcement_level = "hard-mandatory"
-}
+#policy "prohibited-providers" {
+#    source = "./prohibited-providers.sentinel"
+#    enforcement_level = "hard-mandatory"
+#}
 
-policy "prohibited-provisioners" {
-    source = "./prohibited-provisioners.sentinel"
-    enforcement_level = "hard-mandatory"
-}
+#policy "prohibited-provisioners" {
+#    source = "./prohibited-provisioners.sentinel"
+#    enforcement_level = "hard-mandatory"
+#}
 
-policy "prohibited-resources" {
-    source = "./prohibited-resources.sentinel"
-    enforcement_level = "hard-mandatory"
-}
+#policy "prohibited-resources" {
+#    source = "./prohibited-resources.sentinel"
+#    enforcement_level = "hard-mandatory"
+#}
 
 policy "require-all-modules-have-version-constraint" {
     source = "./require-all-modules-have-version-constraint.sentinel"
