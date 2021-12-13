@@ -12,7 +12,7 @@
 import "tfconfig-functions" as config
 
 # List of prohibited providers
-prohibited_list = ["external", "http", "null"]
+prohibited_list = ["external", "null"]
 
 # Get all providers from providers collection
 allProviders = config.find_all_providers()

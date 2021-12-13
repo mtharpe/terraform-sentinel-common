@@ -6,7 +6,7 @@
 import "tfconfig-functions" as config
 
 # List of prohibited data sources
-prohibited_list = ["external", "http"]
+prohibited_list = ["external"]
 
 # Get all Data Sources
 allDatasources = config.find_all_datasources()
