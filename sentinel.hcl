@@ -29,20 +29,20 @@ policy "allowed-provisioners" {
     enforcement_level = "advisory"
 }
 
-policy "allowed-resources" {
-    source = "./allowed-resources.sentinel"
-    enforcement_level = "advisory"
-}
+# policy "allowed-resources" {
+#     source = "./allowed-resources.sentinel"
+#     enforcement_level = "advisory"
+# }
 
 policy "limit-cost-and-percentage-increase" {
     source = "./limit-cost-and-percentage-increase.sentinel"
     enforcement_level = "advisory"
 }
 
-policy "limit-cost-by-workspace-name" {
-    source = "./limit-cost-by-workspace-name.sentinel"
-    enforcement_level = "advisory"
-}
+# policy "limit-cost-by-workspace-name" {
+#     source = "./limit-cost-by-workspace-name.sentinel"
+#     enforcement_level = "advisory"
+# }
 
 policy "limit-proposed-monthly-cost" {
     source = "./limit-proposed-monthly-cost.sentinel"
@@ -94,10 +94,10 @@ policy "require-all-providers-have-version-constraint" {
     enforcement_level = "advisory"
 }
 
-policy "require-all-resources-from-pmr" {
-    source = "./require-all-resources-from-pmr.sentinel"
-    enforcement_level = "advisory"
-}
+# policy "require-all-resources-from-pmr" {
+#     source = "./require-all-resources-from-pmr.sentinel"
+#     enforcement_level = "advisory"
+# }
 
 policy "restrict-databricks-clusters" {
     source = "./restrict-databricks-clusters.sentinel"
