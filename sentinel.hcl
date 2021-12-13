@@ -51,7 +51,7 @@ policy "limit-proposed-monthly-cost" {
 
 policy "prevent-destruction-of-prohibited-resources" {
     source = "./prevent-destruction-of-prohibited-resources.sentinel"
-    enforcement_level = "advisory"
+    enforcement_level = "hard-mandatory"
 }
 
 policy "prevent-non-root-providers" {
@@ -66,22 +66,22 @@ policy "prevent-remote-exec-provisioners-on-null-resources" {
 
 policy "prohibited-datasources" {
     source = "./prohibited-datasources.sentinel"
-    enforcement_level = "advisory"
+    enforcement_level = "hard-mandatory"
 }
 
 policy "prohibited-providers" {
     source = "./prohibited-providers.sentinel"
-    enforcement_level = "advisory"
+    enforcement_level = "hard-mandatory"
 }
 
 policy "prohibited-provisioners" {
     source = "./prohibited-provisioners.sentinel"
-    enforcement_level = "advisory"
+    enforcement_level = "hard-mandatory"
 }
 
 policy "prohibited-resources" {
     source = "./prohibited-resources.sentinel"
-    enforcement_level = "advisory"
+    enforcement_level = "hard-mandatory"
 }
 
 policy "require-all-modules-have-version-constraint" {
