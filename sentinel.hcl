@@ -49,10 +49,10 @@ policy "limit-proposed-monthly-cost" {
     enforcement_level = "advisory"
 }
 
-policy "prevent-destruction-of-prohibited-resources" {
-    source = "./prevent-destruction-of-prohibited-resources.sentinel"
-    enforcement_level = "hard-mandatory"
-}
+#policy "prevent-destruction-of-prohibited-resources" {
+#    source = "./prevent-destruction-of-prohibited-resources.sentinel"
+#    enforcement_level = "hard-mandatory"
+#}
 
 policy "prevent-non-root-providers" {
     source = "./prevent-non-root-providers.sentinel"
