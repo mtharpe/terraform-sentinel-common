@@ -7,7 +7,7 @@ import "tfconfig-functions" as config
 
 # List of allowed data sources
 allowed_list = ["aws_ami", "azurerm_image", "google_compute_image",
-             "terraform_remote_state", "local_file"]
+             "terraform_remote_state", "local_file", "http"]
 
 # Get all Data Sources
 allDatasources = config.find_all_datasources()
