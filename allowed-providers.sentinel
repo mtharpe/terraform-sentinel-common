@@ -15,7 +15,7 @@ import "tfconfig-functions" as config
 import "strings"
 
 # List of allowed providers
-allowed_list = ["aws", "local", "null", "random", "terraform", "tfe", "github", "hcp", "vault", "nomad", "google", "azurerm", "http"]
+allowed_list = ["aws", "local", "null", "random", "terraform", "tfe", "github", "hcp", "vault", "nomad", "google", "azurerm", "http", "gitlab"]
 
 # Get all providers
 allProviders = config.find_all_providers()
