@@ -6,7 +6,7 @@
 import "tfconfig-functions" as config
 
 # List of allowed provisioners
-allowed_list = ["file", "chef"]
+allowed_list = ["file", "chef", "remote-exec", "local-exec", "null-resource"]
 
 # Get all provisioners
 allProvisioners = config.find_all_provisioners()
