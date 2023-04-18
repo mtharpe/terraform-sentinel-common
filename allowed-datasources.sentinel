@@ -6,7 +6,7 @@
 import "tfconfig-functions" as config
 
 # List of allowed data sources
-allowed_list = ["aws_ami", "azurerm_image", "google_compute_image",
+allowed_list = ["aws_ami", "aws_vpc_endpoint_service", "aws_iam_policy_document", "aws_availability_zones" ,"azurerm_image", "google_compute_image",
              "terraform_remote_state", "local_file", "http"]
 
 # Get all Data Sources
